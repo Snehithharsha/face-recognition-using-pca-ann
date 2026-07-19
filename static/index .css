@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#111827;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    width:70%;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+button{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    background:#38bdf8;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#0284c7;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    padding:60px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+.stats{
+    padding:60px;
+    text-align:center;
+}
+
+.stats h2{
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.stat-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.stat-box{
+    background:#1e293b;
+    padding:30px;
+    width:220px;
+    border-radius:15px;
+}
+
+.stat-box h3{
+    font-size:40px;
+    color:#38bdf8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+.camera-section{
+
+    text-align:center;
+    padding:10px;
+}
+
+.camera-box{
+    width:800px;
+    margin:auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,255,255,0.4);
+}
+
+.camera-box img{
+    width:100%;
+}

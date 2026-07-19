@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Face Recognition using PCA & ANN</title>
+<link rel="stylesheet" href="static/index .css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Face Recognition System</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dataset</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Recognition</a></li>
+        <li><a href="#">Results</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Face Recognition using PCA and ANN</h1>
+
+        <p>
+            Intelligent face recognition system using
+            Principal Component Analysis (PCA) for
+            feature extraction and Artificial Neural
+            Network (ANN) for classification.
+        </p>
+
+        <!-- <button>Start Recognition</button> -->
+
+    </div>
+  
+</section>
+ <section class="camera-section">
+
+        <h2>Live Face Recognition</h2>
+
+        <div class="camera-box">
+
+            <img src="{{ url_for('video') }}">
+
+        </div>
+
+    </section>
+
+<section class="cards">
+
+    <div class="card">
+        <h2>Dataset</h2>
+        <p>9 Persons Dataset with 30-40 Images each.</p>
+    </div>
+
+    <div class="card">
+        <h2>PCA Module</h2>
+        <p>Dimensionality Reduction using Eigen Faces.</p>
+    </div>
+
+    <div class="card">
+        <h2>ANN Module</h2>
+        <p>Classification using Neural Network.</p>
+    </div>
+
+    <div class="card">
+        <h2>Recognition</h2>
+        <p>Real-Time Face Detection & Identification.</p>
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <h2>System Performance</h2>
+
+    <div class="stat-container">
+
+        <div class="stat-box">
+            <h3>95%</h3>
+            <p>Accuracy</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>9</h3>
+            <p>Classes</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>350+</h3>
+            <p>Images</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        Face Recognition System using PCA and ANN |
+        Final Year Project
+    </p>
+
+</footer>
+
+</body>
+</html>
